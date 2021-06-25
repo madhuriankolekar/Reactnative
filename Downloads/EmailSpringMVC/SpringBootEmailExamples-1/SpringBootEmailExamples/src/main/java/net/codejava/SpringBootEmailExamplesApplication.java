@@ -8,6 +8,7 @@ public class SpringBootEmailExamplesApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootEmailExamplesApplication.class, args);
+System.out.println("gyyyyyyyyyyyyyyyyyyyyyyyyyyyy");
 	}
 
 }

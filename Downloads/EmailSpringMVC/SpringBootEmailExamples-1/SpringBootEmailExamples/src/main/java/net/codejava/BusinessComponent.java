@@ -9,8 +9,9 @@ public class BusinessComponent {
 
 	@Autowired
 	private JavaMailSender mailSender;
-	
+	System.out.println("hyufghewb");
 	public void sendEmail() {
+System.out.println("hgadsdf");
 		// use mailSender here...
 	}
 }

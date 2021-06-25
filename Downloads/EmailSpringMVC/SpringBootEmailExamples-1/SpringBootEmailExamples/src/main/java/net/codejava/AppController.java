@@ -75,7 +75,7 @@ public class AppController {
 		helper.setSubject("Here's your e-book");
 		helper.setFrom(from);
 		helper.setTo(to);
-		
+		System.out.println("gdfhgwh");
 		helper.setText("<b>Dear friend</b>,<br><i>Please find the book attached.</i>", true);
 		
 		FileSystemResource file = new FileSystemResource(new File("g:\\MyEbooks\\Freelance for Programmers\\SuccessFreelance-Preview.pdf"));
@@ -108,7 +108,7 @@ public class AppController {
 		helper.addInline("image001", resource);
 
 		mailSender.send(message);
-		
+		System.out.println("dbhj");
 		model.addAttribute("message", "An HTML email with inline image has been sent");
 		return "result";		
 	}	
